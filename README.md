@@ -7,6 +7,6 @@ Cette application est une solution moderne permettant de transformer des documen
 
 - OCR (Reconnaissance Optique de Caractères) : Extraction du texte à partir des images scannées.
 
-- Export Multiformat : Génération de fichiers au format PDF ou JPEG.
+- Export Multiformat : Génération de fichiers au format JPEG.
 
 - Gestion Locale : Organisation des documents par catégories et stockage sécurisé.
