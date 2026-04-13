@@ -1,0 +1,580 @@
+export const nationalites = [
+  "DJIB",
+  "ETH",
+  "SOM",
+  "YEM",
+  "ERI",
+  "SDN",
+  "NON DJIB",
+];
+
+export const sexes = ["M", "F"];
+
+export const tests = [
+  "TDR PF+",
+  "TDR PV+",
+  "TDR NÉGATIF",
+  "TDR POSITIF",
+  "TDR PF+ PV+",
+];
+
+export const Docteur = [
+  "Dr RAHMA",
+  "Dr FATHIA",
+  "Dr Ali Houssein",
+  "Dr NEBEWIA MOHAMED",
+  "Dr KHADIGA ALI",
+  "Dr IBRAHIM MAHAMED",
+];
+
+export const Motifs = [
+  "FIEVRE",
+  "FIEVRE + FRISSON",
+  "FIEVRE / FRISSON / CEPHALEE",
+  "FIEVRE + CEPHALEE",
+  "FIEVRE + COURBATURE",
+  "FIEVRE + TOUX",
+  "FIEVRE + TOUX + FRISSON",
+  "FIEVRE + BRULURE MICTIONNELLE",
+  "FIEVRE + DOULEUR",
+  "FIEVRE + ASTHENIE",
+  "FIEVRE + COLIQUE",
+  "FIEVRE + VOMISSEMENT",
+  "FIEVRE + DIARRHEE",
+  "FIEVRE + VERTIGE",
+
+  "CEPHALEE",
+  "CEPHALEE + FIEVRE",
+  "CEPHALEE + COURBATURE",
+  "CEPHALEE + VERTIGE",
+
+  "TOUX",
+  "TOUX SECHE",
+  "TOUX PRODUCTIVE",
+  "TOUX + FRISSON",
+  "TOUX + CEPHALEE",
+  "TOUX + FIEVRE",
+  "TOUX + POINT DE COTE",
+
+  "DOULEUR",
+  "DOULEUR ABDOMINALE",
+  "DOULEUR MUSCULAIRE",
+  "DOULEUR PELVIENNE",
+  "DOULEUR LOMBAIRE",
+  "DOULEUR OCULAIRE",
+  "POINT DE COTE",
+
+  "COURBATURE",
+
+  "VOMISSEMENT",
+  "VOMISSEMENT + FIEVRE",
+
+  "DIARRHEE",
+  "DIARRHEE + FIEVRE",
+  "DIARRHEE + COLIQUE",
+  "DIARRHEE SANGUINOLENTE",
+
+  "COLIQUE",
+  "COLIQUE ABDOMINALE",
+
+  "EPIGASTRALGIE",
+
+  "ASTHENIE",
+  "ASTHME",
+  "VERTIGE",
+
+  "BRULURE",
+  "BRULURE MICTIONNELLE",
+  "BRULURE OCULAIRE",
+
+  "PRURIT VAGINAL",
+  "PRURIT CUTANE",
+
+  "LESION DERMATOLOGIQUE",
+
+  "PLAIE",
+
+  "GALE",
+
+  "ANGINE",
+
+  "BRONCHITE AIGUE",
+  "BRONCHOPNEUMONIE",
+  "PNEUMONIE",
+
+  "SD GRIPPE",
+
+  "GEA",
+  "GEA SIMPLE",
+
+  "CYSTITE",
+
+  "INFECTION",
+
+  "IST",
+
+  "PROSTATITE",
+
+  "SCIATIQUE",
+
+  "FURONCLE",
+
+  "ABCES",
+  "ABCES DENTAIRE",
+
+  "ERYSIPELE",
+
+  "IMPETIGO",
+
+  "INTERTRIGO",
+
+  "ACNE",
+
+  "OTITE",
+
+  "TRAUMATISME",
+  "ENTORSE CHEVILLE",
+
+  "ARTHRITE",
+
+  "FIBROMYALGIE",
+
+  "RHINOPHARYNGITE",
+
+  "CONSTIPATION",
+
+  "GOUTTE",
+
+  "DIABETE TYPE 2",
+
+  "ANEMIE",
+
+  "POLYMENORRHEE",
+  "AMENORRHEE",
+
+  "PALPITATION",
+
+  "DIMINUTION AUDITIVE",
+
+  "ALLERGIE",
+
+  "CRAMPE MUSCULAIRE",
+
+  "INSUFFISANCE VEINEUSE",
+];
+
+export const quartiers = [
+  "Q1",
+  "Q2",
+  "Q3",
+  "Q4",
+  "Q5",
+  "Q6",
+  "AVENUE 13",
+  "Q7",
+  "Q7 BIS",
+  "AMBOULI",
+  "ARHIBA",
+  "EINGUELLA",
+  "DJEBEL",
+  "BALBALA",
+  "HARAMOUS",
+  "WADAJIR",
+  "HERON",
+  "SDF",
+  "HODAN 1",
+  "HODAN 2",
+  "BARWAKO",
+  "BARWAKO 2",
+  "HAYABLEY",
+  "WARABALEY",
+  "CHEIKH MOUSSA",
+  "CHEIKH OSMAN",
+  "LAYABLEY",
+  "Cité NASSIB",
+  "GACHAMALEH",
+  "SALINES EST",
+  "SALINES OUEST",
+  "GABODE 1",
+  "GABODE 2",
+  "GABODE 3",
+  "GABODE 4",
+  "GABODE 5",
+  "GABODE 6",
+  "Cité DAWALEH",
+  "PROGRÈS",
+  "Cité SAOUDI",
+  "Cité POUDRIÈRE",
+  "MAKA AL MOUKARAMA",
+  "PLATEAU",
+  "AVIATION",
+  "PK12",
+  "PK13",
+];
+
+export const Examens = [
+  "TDR",
+  "TDR POSITIF",
+  "TDR NEGATIF",
+
+  "NFS",
+
+  "NFS + TDR",
+
+  "ECBU",
+
+  "ECBU + NFS",
+  "ECBU + TDR",
+  "ECBU + PV",
+  "ECBU + KAOP",
+  "ECBU + NFS + TDR",
+
+  "PV",
+
+  "KAOP",
+  "KAOP + NFS",
+  "KAOP + TDR",
+
+  "GE",
+  "GE + NFS",
+
+  "BIOCHIMIE",
+  "BIOCHIMIE + NFS",
+  "BIOCHIMIE + TDR",
+  "BIOCHIMIE + NFS + TDR + ECBU",
+
+  "RX",
+  "RX + NFS",
+
+  "GLYCEMIE",
+
+  "TEST DE GROSSESSE",
+
+  "HIV",
+
+  "SERUM",
+
+  "TGO",
+
+  "HBS",
+
+  "HBO",
+
+  "HBU",
+
+  "SOINS LOCAUX",
+  "SOINS LOURDS",
+
+  "PALPATION",
+
+  "TA",
+
+  "MULTICITAIRE",
+
+  "ANGINE",
+
+  "HYPERTENSION",
+
+  "DENGUE",
+];
+
+export const Diagnostics = [
+  "CONSULTATION",
+
+  "RHUME",
+  "GRIPPE",
+  "PALUDISME",
+
+  "ANGINE",
+  "ASTHME",
+  "BRONCHITE",
+
+  "INFECTION",
+  "INFECTION VIRALE",
+
+  "ITU",
+  "CYSTITE",
+
+  "PARASITE",
+
+  "ALLERGIE",
+
+  "GASTRITE",
+
+  "DIARRHEE",
+
+  "FIEVRE",
+
+  "PLAIE",
+
+  "BRULURE",
+
+  "HEMORROIDES",
+
+  "HYPERTENSION",
+  "HTA + STRESS",
+
+  "DIABETE",
+
+  "ANEMIE",
+
+  "GALE",
+
+  "HERPES",
+
+  "OTITE",
+
+  "ACNE",
+
+  "DOULEUR DENTAIRE",
+
+  "PALPITATION",
+
+  "TROUBLE",
+
+  "CONSTIPATION",
+
+  "GROSSESSE",
+
+  "IST",
+
+  "IRH",
+
+  "HSA",
+  "HIA",
+  "HPA",
+
+  "DENGUE",
+
+  "MULTICONSULTATION",
+];
+
+export const Traitements = [
+  "PARACETAMOL",
+  "PARACETAMOL + VITAMINE C",
+
+  "DICLOFENAC",
+
+  "IBUPROFENE",
+
+  "FLAGYL",
+
+  "AMOXICILLINE",
+  "AMOXICILLINE + PARACETAMOL",
+
+  "AUGMENTIN",
+  "AUGMENTIN + PARACETAMOL",
+  "AUGMENTIN + PARACETAMOL + VITAMINE C",
+
+  "COARTEM",
+  "COARTEM + PARACETAMOL",
+  "COARTEM + PARACETAMOL + VITAMINE C",
+
+  "ORS",
+
+  "METOCLOPRAMIDE",
+
+  "OMEPRAZOLE",
+
+  "GLUCOPHAGE",
+
+  "MULTIVITAMINES",
+
+  "BACTRIM",
+
+  "CLOXACILLINE",
+
+  "CIPROFLOXACINE",
+
+  "MAGNESIUM",
+
+  "SOINS LOCAUX",
+
+  "POMMADE DICLOFENAC",
+];
+
+export const noms_feminins = [
+  "AMINA",
+  "FATIMA",
+  "FATOUMA",
+  "HAWA",
+  "KHADIJA",
+  "ZAINAB",
+  "AISHA",
+  "MARYAM",
+  "ZAHRA",
+  "NOURA",
+  "SARA",
+  "MARIAM",
+  "FADUMO",
+  "HODAN",
+  "ASMA",
+  "RUKIYA",
+  "SAFIYE",
+  "SAFIA",
+  "HALIMA",
+  "HALIMA",
+  "SAHRA",
+  "FARTUN",
+  "HIBO",
+  "NIMO",
+  "SAGAL",
+  "HANA",
+  "SAREDO",
+  "DEKA",
+  "FISLAN",
+  "NEIMA",
+  "SOUMEYA",
+  "MAHADO",
+  "BILAN",
+  "OUMALKAIRE",
+  "SOUAD",
+  "HABIBA",
+  "ZEINABOU",
+  "AMAL",
+  "IKRAM",
+  "IMAN",
+  "YASMIN",
+  "LINA",
+  "FARDOUSSA",
+  "CHOUKRI",
+  "CHOUKRIYA",
+  "SALMA",
+  "SAIDA",
+  "MOUNA",
+  "FAWZIA",
+  "ILHAM",
+  "IKRAN",
+  "JAMILA",
+  "NASTEHO",
+  "WARIS",
+  "AYAN",
+  "UBAH",
+  "OUBAH",
+  "LEILA",
+  "LOULA",
+  "SAADA",
+  "SAIDA",
+  "CHAMISE",
+  "MOUMINA",
+  "ARKSAN",
+  "IDIL",
+];
+
+export const noms_masculins = [
+  "HOUSSEIN",
+  "KADIR",
+  "SALAH",
+  "DJILANI",
+  "HAMZA",
+  "MOUSTAPHA",
+  "MOUKTAR",
+  "GEUDI",
+  "GOUHAD",
+  "MOHAMED",
+  "ABDOURAHMAN",
+  "SOUBER",
+  "EZZALDINE",
+  "HANAD",
+  "MOUSSA",
+  "AYOUB",
+  "HAMZE",
+  "MOUHOUYEDIN",
+  "MOUHYADINE",
+  "MOLID",
+  "AHMED",
+  "ALI",
+  "HASSAN",
+  "HUSSEIN",
+  "ABDALLAH",
+  "ABDI",
+  "OMAR",
+  "ISMAIL",
+  "IBRAHIM",
+  "YOUSSOUF",
+  "MAHAMOUD",
+  "ABDOULKADER",
+  "ABDOURAHMAN",
+  "ABDOURAZAK",
+  "ABDOULKARIM",
+  "ABDOULAHI",
+  "ABDOULAZIZ",
+  "ABDOULMALIK",
+  "JAMA",
+  "WARSAME",
+  "FARAH",
+  "GUEDI",
+  "DINI",
+  "ADEN",
+  "LIBAN",
+  "SAMATAR",
+  "ROBLEH",
+  "OSMAN",
+  "SAID",
+  "SOULEIMAN",
+  "ABDIRAHMAN",
+  "ABDIKADIR",
+  "ABDIRASHID",
+  "ABDISALAM",
+  "ABDINASSER",
+  "ABDIRAHIM",
+  "ABDIRIZAK",
+  "KHALID",
+  "BILAL",
+  "TARIQ",
+  "FAYSAL",
+  "NASSER",
+  "ANWAR",
+  "ZAYD",
+  "IMRAN",
+  "SALIM",
+  "BASHIR",
+  "IDRISS",
+  "ZAKARIA",
+  "YAHYA",
+  "MUSTAFA",
+  "NOUH",
+  "HAROUN",
+  "LUQMAN",
+  "YUNUS",
+  "SHARMARKE",
+  "DALMAR",
+  "BARUD",
+  "GULEID",
+  "HERSI",
+  "HIRSI",
+  "NUR",
+  "NURADIN",
+  "NURANI",
+  "NOOR",
+  "MAHDI",
+  "RAYAN",
+  "SAMI",
+  "BOUH",
+  "RIRACHE",
+  "WALID",
+  "KHALAF",
+  "FARHAN",
+  "MUBARAK",
+  "SHARIF",
+  "RASHID",
+  "ABUKAR",
+  "ILMI",
+  "ELMI",
+  "SAMIR",
+  "HAMED",
+  "FATHI",
+  "ABDISHAKUR",
+  "AHMEDNUR",
+  "AHMEDALI",
+  "MOHAMEDALI",
+  "SAAD",
+  "DJAMA",
+  "OSMAN",
+  "FARID",
+  "FAHMI",
+  "DAOUD",
+  "ABDI",
+  "ABDILLAHI",
+  "BACHIR",
+];

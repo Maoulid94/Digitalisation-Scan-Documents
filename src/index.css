@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #f8fafc;
+  --card: #ffffff;
+
+  --header: #4c1d95;
+  --footer: #2e1065;
+
+  --text: #0f172a;
+  --subtext: #64748b;
+
+  --border: #e2e8f0;
+
+  --primary: #7c3aed;
+  --primary-hover: #6d28d9;
+
+  --shadow: 0 10px 25px rgba(124, 58, 237, 0.15);
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Loading Animations */
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-backdrop {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(8px);
+  }
+}
+
+.animate-loading-spin {
+  animation: loading-spin 1s linear infinite;
+}
+
+.animate-loading-overlay {
+  animation: loading-backdrop 0.4s ease-out forwards;
+}
+
+/* Optimized Scale for the card */
+.animate-loading-content {
+  animation: scaleIn 0.3s ease-out forwards;
+}
+
+/* Alert Animations */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+    transform: translateY(-10px) translateX(10px);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.3s ease;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.35s ease-out;
+}
+
+.animate-slideOutRight {
+  animation: slideOutRight 0.3s ease-in;
+}
+
+/* Hide default browser password reveal icons */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none !important;
+}
